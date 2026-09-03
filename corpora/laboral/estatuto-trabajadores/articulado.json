@@ -1,0 +1,62 @@
+{
+  "id": "estatuto-trabajadores",
+  "title": "Estatuto de los Trabajadores",
+  "domain": "laboral",
+  "type": "legislacion-estatal",
+  "status": "draft",
+  "source": {
+    "publisher": "Boletín Oficial del Estado",
+    "reference": "BOE-A-2015-11430",
+    "version": "2025-12-04",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430&tn=1&p=20251204"
+  },
+  "articles": [
+    {
+      "id": "articulo-37",
+      "title": "Artículo 37. Descanso semanal, fiestas y permisos",
+      "units": [
+        {
+          "id": "articulo-37-3-a",
+          "legal": "a) Quince días naturales en caso de matrimonio o registro de pareja de hecho.",
+          "plain": "La norma estatal reconoce quince días naturales de permiso retribuido por matrimonio o por registro de pareja de hecho.",
+          "topics": ["permisos", "matrimonio", "pareja-de-hecho"],
+          "related": ["convenio-hosteleria-santa-cruz-tenerife-2025-2028:28"]
+        },
+        {
+          "id": "articulo-37-3-b",
+          "legal": "b) Cinco días por accidente o enfermedad graves, hospitalización o intervención quirúrgica sin hospitalización que precise reposo domiciliario del cónyuge, pareja de hecho o parientes hasta el segundo grado por consanguineidad o afinidad, incluido el familiar consanguíneo de la pareja de hecho, así como de cualquier otra persona distinta de las anteriores, que conviva con la persona trabajadora en el mismo domicilio y que requiera el cuidado efectivo de aquella.",
+          "plain": "Reconoce cinco días retribuidos en los supuestos descritos cuando la persona afectada está dentro de los vínculos familiares o de convivencia previstos por la norma.",
+          "topics": ["permisos", "hospitalizacion", "enfermedad-grave", "cuidados"],
+          "related": ["convenio-hosteleria-santa-cruz-tenerife-2025-2028:28"]
+        }
+      ]
+    },
+    {
+      "id": "articulo-38",
+      "title": "Artículo 38. Vacaciones anuales",
+      "units": [
+        {
+          "id": "articulo-38-1",
+          "legal": "1. El periodo de vacaciones anuales retribuidas, no sustituible por compensación económica, será el pactado en convenio colectivo o contrato individual. En ningún caso la duración será inferior a treinta días naturales.",
+          "plain": "Las vacaciones son retribuidas, no pueden cambiarse por dinero mientras exista la relación laboral y nunca pueden ser inferiores a treinta días naturales al año.",
+          "topics": ["vacaciones"],
+          "related": ["convenio-hosteleria-santa-cruz-tenerife-2025-2028:27"]
+        },
+        {
+          "id": "articulo-38-2",
+          "legal": "2. El periodo o periodos de su disfrute se fijará de común acuerdo entre el empresario y el trabajador, de conformidad con lo establecido en su caso en los convenios colectivos sobre planificación anual de las vacaciones. En caso de desacuerdo entre las partes, la jurisdicción social fijará la fecha que para el disfrute corresponda y su decisión será irrecurrible. El procedimiento será sumario y preferente.",
+          "plain": "Las fechas se acuerdan entre empresa y persona trabajadora respetando lo que establezca el convenio. Si no hay acuerdo, existe un procedimiento judicial específico y preferente para fijarlas.",
+          "topics": ["vacaciones", "calendario", "jurisdiccion-social"],
+          "related": ["convenio-hosteleria-santa-cruz-tenerife-2025-2028:27"]
+        },
+        {
+          "id": "articulo-38-3-a",
+          "legal": "El calendario de vacaciones se fijará en cada empresa. El trabajador conocerá las fechas que le correspondan dos meses antes, al menos, del comienzo del disfrute.",
+          "plain": "La empresa debe tener calendario de vacaciones y comunicar las fechas con al menos dos meses de antelación.",
+          "topics": ["vacaciones", "calendario", "preaviso"],
+          "related": ["convenio-hosteleria-santa-cruz-tenerife-2025-2028:27"]
+        }
+      ]
+    }
+  ]
+}
