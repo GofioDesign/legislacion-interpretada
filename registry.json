@@ -1,6 +1,6 @@
 {
   "module": "legislacion-interpretada",
-  "version": "0.1.0",
+  "version": "0.2.0-dev",
   "updated": "2026-09-03",
   "corpora": [
     {
@@ -18,7 +18,10 @@
       "domain": "laboral",
       "type": "legislacion-estatal",
       "title": "Estatuto de los Trabajadores",
-      "status": "planned",
+      "territory": "España",
+      "status": "draft",
+      "path": "corpora/laboral/estatuto-trabajadores",
+      "entry": "articulado.json",
       "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430&tn=1&p=20251204"
     }
   ]
