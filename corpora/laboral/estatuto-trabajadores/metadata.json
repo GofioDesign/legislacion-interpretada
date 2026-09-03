@@ -1,0 +1,25 @@
+{
+  "id": "estatuto-trabajadores",
+  "title": "Estatuto de los Trabajadores",
+  "officialTitle": "Real Decreto Legislativo 2/2015, de 23 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto de los Trabajadores",
+  "domain": "laboral",
+  "type": "legislacion-estatal",
+  "territory": "España",
+  "status": "draft",
+  "source": {
+    "publisher": "Boletín Oficial del Estado",
+    "publication": "BOE núm. 255, de 24 de octubre de 2015",
+    "date": "2015-10-24",
+    "reference": "BOE-A-2015-11430",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430&tn=1&p=20251204",
+    "eli": "https://www.boe.es/eli/es/rdlg/2015/10/23/2/con",
+    "consolidatedVersion": "2025-12-04",
+    "consolidatedInForceFrom": "2025-12-05",
+    "consolidatedNotice": "El BOE indica que el texto consolidado es informativo y no tiene valor jurídico; para fines jurídicos debe consultarse la publicación oficial."
+  },
+  "review": {
+    "updated": "2026-09-03",
+    "status": "partial",
+    "note": "La v0.2 comienza por los artículos directamente relacionados con el convenio de Hostelería de Santa Cruz de Tenerife. El corpus completo se incorporará por fases."
+  }
+}
