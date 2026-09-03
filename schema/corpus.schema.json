@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gofiodesign.github.io/legislacion-interpretada/schema/corpus.schema.json",
+  "title": "Legislación Interpretada - Corpus",
+  "type": "object",
+  "required": ["id", "title", "domain", "type", "status", "source", "articles"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "title": {"type": "string", "minLength": 1},
+    "domain": {"type": "string", "minLength": 1},
+    "type": {"type": "string", "minLength": 1},
+    "territory": {"type": ["string", "null"]},
+    "validFrom": {"type": ["string", "null"], "format": "date"},
+    "validTo": {"type": ["string", "null"], "format": "date"},
+    "status": {"enum": ["draft", "verified", "reviewed", "interpreted", "planned", "historical"]},
+    "source": {
+      "type": "object",
+      "required": ["publisher", "url"],
+      "properties": {
+        "publisher": {"type": "string"},
+        "publication": {"type": ["string", "null"]},
+        "date": {"type": ["string", "null"], "format": "date"},
+        "url": {"type": "string", "format": "uri"},
+        "version": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "articles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "units"],
+        "properties": {
+          "id": {"type": "string"},
+          "title": {"type": "string"},
+          "related": {"type": "array", "items": {"type": ["string", "object"]}},
+          "units": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "legal"],
+              "properties": {
+                "id": {"type": "string"},
+                "legal": {"type": "string"},
+                "plain": {"type": ["string", "null"]},
+                "editorialNote": {"type": ["string", "null"]},
+                "topics": {"type": "array", "items": {"type": "string"}},
+                "related": {"type": "array", "items": {"type": ["string", "object"]}}
+              },
+              "additionalProperties": true
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
