@@ -1,0 +1,28 @@
+{
+  "id": "convenio-hosteleria-santa-cruz-tenerife-2025-2028",
+  "title": "Convenio Colectivo del Sector de Hostelería de Santa Cruz de Tenerife 2025-2028",
+  "domain": "laboral",
+  "type": "convenio-colectivo",
+  "code": "38000905011981",
+  "territory": "Provincia de Santa Cruz de Tenerife",
+  "validFrom": "2025-07-01",
+  "validTo": "2028-06-30",
+  "status": "draft",
+  "source": {
+    "publisher": "Boletín Oficial de la Provincia de Santa Cruz de Tenerife",
+    "publication": "Número 154",
+    "date": "2025-12-22",
+    "url": "https://www.bopsantacruzdetenerife.es/",
+    "pages": "30034-30080"
+  },
+  "registry": {
+    "publisher": "Registro de convenios y acuerdos colectivos de trabajo",
+    "code": "38000905011981",
+    "url": "https://expinterweb.mites.gob.es/regcon/pub/consultaCodigoMapas?convenioMapa=38000905011981"
+  },
+  "review": {
+    "updated": "2026-09-03",
+    "status": "partial",
+    "note": "Corpus inicial. El texto completo del BOP debe segmentarse y contrastarse antes de cambiar el estado a verified."
+  }
+}
