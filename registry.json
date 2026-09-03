@@ -1,6 +1,6 @@
 {
   "module": "legislacion-interpretada",
-  "version": 1,
+  "version": "0.1.0",
   "updated": "2026-09-03",
   "corpora": [
     {
@@ -10,7 +10,8 @@
       "title": "Convenio Colectivo del Sector de Hostelería de Santa Cruz de Tenerife 2025-2028",
       "territory": "Santa Cruz de Tenerife",
       "status": "draft",
-      "path": "corpora/laboral/convenio-hosteleria-santa-cruz-tenerife-2025-2028"
+      "path": "corpora/laboral/convenio-hosteleria-santa-cruz-tenerife-2025-2028",
+      "entry": "articulado.json"
     },
     {
       "id": "estatuto-trabajadores",
