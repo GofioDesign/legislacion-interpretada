@@ -1,8 +1,24 @@
 # Legislación Interpretada
 
+**Versión actual: 0.1.0**
+
 Repositorio común y reutilizable para publicar normativa con **texto legal**, **explicación en lenguaje claro**, **relaciones entre normas** y **enlaces estables** a artículos, apartados y letras.
 
 Está pensado para ser consumido por webs sindicales, ambientales, turísticas, vecinales o de cualquier otro ámbito que necesite explicar legislación sin mezclar la norma con su interpretación.
+
+## Qué funciona en 0.1
+
+- catálogo común de corpus en `registry.json`;
+- estructura JSON compartida;
+- texto legal, lenguaje claro y notas editoriales separados;
+- relaciones entre artículos y fuentes externas;
+- visor web genérico en `src/`;
+- búsqueda por texto legal, explicación y temas;
+- enlaces estables a unidades jurídicas mediante hash;
+- validación automática con `npm run check` y GitHub Actions;
+- contribución mediante issues y Pull Requests.
+
+El corpus del Convenio de Hostelería de Santa Cruz de Tenerife está todavía en `draft`: la infraestructura es funcional, pero el articulado completo debe terminar de segmentarse y contrastarse antes de declararlo verificado.
 
 ## Principios
 
@@ -16,40 +32,32 @@ Está pensado para ser consumido por webs sindicales, ambientales, turísticas, 
 
 ## Dominios
 
-El motor no está limitado al derecho laboral. El catálogo puede contener, entre otros:
-
-- `laboral`
-- `turismo`
-- `alojamientos`
-- `espacios-naturales`
-- `medioambiente`
-- `urbanismo`
-- `administracion-publica`
+El motor no está limitado al derecho laboral. El catálogo puede contener `laboral`, `turismo`, `alojamientos`, `espacios-naturales`, `medioambiente`, `urbanismo`, `administracion-publica` y otros dominios.
 
 ## Estructura
 
 ```text
+├─ VERSION
 ├─ registry.json
 ├─ schema/
 │  └─ corpus.schema.json
 ├─ corpora/
-│  ├─ laboral/
-│  ├─ turismo/
-│  ├─ alojamientos/
-│  └─ espacios-naturales/
+├─ src/
+│  ├─ legislation.js
+│  └─ legislation.css
+├─ demo/
+│  └─ index.html
+├─ scripts/
+│  └─ validate.mjs
 ├─ docs/
-│  └─ CONTRIBUTING.md
+│  ├─ CONTRIBUTING.md
+│  ├─ INTEGRATION.md
+│  └─ REPOSITORY_SETTINGS.md
 └─ .github/
+   ├─ workflows/validate.yml
    ├─ PULL_REQUEST_TEMPLATE.md
    └─ ISSUE_TEMPLATE/
 ```
-
-## Estados de revisión
-
-- `draft`: aportado, pendiente de contraste completo.
-- `verified`: texto contrastado con la fuente indicada.
-- `reviewed`: estructura, metadatos y referencias revisadas.
-- `interpreted`: incorpora lenguaje claro revisado.
 
 ## Unidad jurídica
 
@@ -64,16 +72,19 @@ El motor no está limitado al derecho laboral. El catálogo puede contener, entr
 }
 ```
 
-## Primera colección
+## Probar el visor
 
-El corpus inicial será laboral:
+Con Node 20 o superior:
 
-- Convenio Colectivo del Sector de Hostelería de Santa Cruz de Tenerife 2025-2028.
-- Estatuto de los Trabajadores.
-- Posteriormente: LOLS, LPRL y demás normativa relacionada.
+```bash
+npm run check
+npm run serve
+```
+
+Después abre `/demo/` en el servidor local.
 
 ## Integración
 
-Una web consumidora podrá declarar los corpus que necesita y construir su propia interfaz sobre ellos. El objetivo es que una norma se mantenga una sola vez y pueda ser reutilizada por muchas instancias.
+Una web consumidora puede usar solo los JSON o montar el visor incluido. Consulta [INTEGRATION.md](docs/INTEGRATION.md).
 
-Las contribuciones de nuevos convenios o normas deben seguir [CONTRIBUTING.md](docs/CONTRIBUTING.md).
+Las contribuciones de nuevos convenios o normas deben seguir [CONTRIBUTING.md](docs/CONTRIBUTING.md). Los cambios de versión se documentan en [CHANGELOG.md](CHANGELOG.md).
