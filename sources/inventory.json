@@ -1,0 +1,884 @@
+{
+  "version": "1.0",
+  "inventoriedAt": "2026-09-04",
+  "sourceBundle": "legislacion laboral hosteleria tenerife.zip",
+  "sourceFileCount": 49,
+  "logicalSourceCount": 43,
+  "notes": [
+    "Los PDF no se incorporan al repositorio; el inventario conserva nombre, páginas y huella SHA-256 para trazabilidad.",
+    "Los boletines completos y sus recortes se agrupan como una sola fuente lógica.",
+    "El Real Decreto 1299/2006 aparece en dos secciones del paquete con la misma huella y se registra una sola vez con ambos nombres de archivo.",
+    "Un estado planned o draft no acredita que el texto se haya transcrito o verificado íntegramente."
+  ],
+  "sources": [
+    {
+      "id": "boc-2026-090-1554",
+      "title": "Ley 1/2026, de 28 de abril, de modificación de la Ley 7/1995, de 6 de abril, de Ordenación del Turismo de Canarias",
+      "publisher": "Boletín Oficial de Canarias",
+      "publication": "BOC núm. 90, de 12 de mayo de 2026",
+      "categories": [
+        "Documentacion sectorial imprescindible"
+      ],
+      "officialUrl": "https://sede.gobiernodecanarias.org/boc/boc-a-2026-090-1554.pdf",
+      "files": [
+        {
+          "pathInDownload": "01 - Documentacion sectorial imprescindible/boc-a-2026-090-1554.pdf",
+          "pages": 15,
+          "sha256": "727f78670896ebbf839672d34278d581b098e4e8766091a56fe3b94ba76771c8"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-1985-16660",
+      "reference": "BOE-A-1985-16660",
+      "title": "Ley Orgánica 11/1985, de 2 de agosto, de Libertad Sindical.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Legislación laboral general básica"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2024-08-02",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-16660",
+      "files": [
+        {
+          "pathInDownload": "02 - Legislación laboral general básica/BOE-A-1985-16660-consolidado.pdf",
+          "pages": 13,
+          "sha256": "a3212fef1eca80857690ec744b20fb14b5d5c6e1ba2e133d1f0dedcbb73106b1"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-1994-12554",
+      "reference": "BOE-A-1994-12554",
+      "title": "Ley 14/1994, de 1 de junio, por la que se regulan las empresas de trabajo temporal.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Legislación laboral general básica"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2023-03-01",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-12554",
+      "files": [
+        {
+          "pathInDownload": "02 - Legislación laboral general básica/BOE-A-1994-12554-consolidado.pdf",
+          "pages": 19,
+          "sha256": "ed50f98e6f33e4d2e97211e787dc9152e6af25be73104dc3c5facb564d86633d"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-1995-21346",
+      "reference": "BOE-A-1995-21346",
+      "title": "Real Decreto 1561/1995, de 21 de septiembre, sobre jornadas especiales de trabajo.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Legislación laboral general básica"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2020-07-02",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-21346",
+      "files": [
+        {
+          "pathInDownload": "02 - Legislación laboral general básica/BOE-A-1995-21346-consolidado.pdf",
+          "pages": 25,
+          "sha256": "58c0a5551de26ee56cf7abc6547e369a87034a26526baf28f87b9c260e71e8f6"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-1995-24292",
+      "reference": "BOE-A-1995-24292",
+      "title": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Prevención de riesgos laborales"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2026-04-09",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "files": [
+        {
+          "pathInDownload": "03 - Prevención de riesgos laborales/BOE-A-1995-24292-consolidado.pdf",
+          "pages": 41,
+          "sha256": "6f88b41618c7f78dfa69acd1f77cf33b08187a91870f6c5e38d698300fc79e2f"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-1997-12735",
+      "reference": "BOE-A-1997-12735",
+      "title": "Real Decreto 773/1997, de 30 de mayo, sobre disposiciones mínimas de seguridad y salud relativas a la utilización por los trabajadores de equipos de protección individual.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Prevención de riesgos laborales"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2021-12-08",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-12735",
+      "files": [
+        {
+          "pathInDownload": "03 - Prevención de riesgos laborales/BOE-A-1997-12735-consolidado.pdf",
+          "pages": 17,
+          "sha256": "75e1915ad61ba97cd149c32b14c4e885765f2c245f588c7493c09ce91335d7e1"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-1997-17824",
+      "reference": "BOE-A-1997-17824",
+      "title": "Real Decreto 1215/1997, de 18 de julio, por el que se establecen las disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Prevención de riesgos laborales"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2004-11-13",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824",
+      "files": [
+        {
+          "pathInDownload": "03 - Prevención de riesgos laborales/BOE-A-1997-17824-consolidado.pdf",
+          "pages": 17,
+          "sha256": "de4b523dbc6aefbc72c18aa9400684cabb44986ecfa5d9a1dd5b6a2146f83068"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-1997-1853",
+      "reference": "BOE-A-1997-1853",
+      "title": "Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento de los Servicios de Prevención.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Prevención de riesgos laborales"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2025-10-17",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853",
+      "files": [
+        {
+          "pathInDownload": "03 - Prevención de riesgos laborales/BOE-A-1997-1853-consolidado.pdf",
+          "pages": 41,
+          "sha256": "067c70f401f01597f54311d4143cc192e776d29d7855659c42a8e2064b57ba96"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-1997-8669",
+      "reference": "BOE-A-1997-8669",
+      "title": "Real Decreto 486/1997, de 14 de abril, por el que se establecen las disposiciones mínimas de seguridad y salud en los lugares de trabajo.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Prevención de riesgos laborales"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2023-05-12",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669",
+      "files": [
+        {
+          "pathInDownload": "03 - Prevención de riesgos laborales/BOE-A-1997-8669-consolidado.pdf",
+          "pages": 16,
+          "sha256": "68c42a647e41c5232917b08df35ca3b4d93ab71410c601dcd3f56af4b11c9175"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-1997-8670",
+      "reference": "BOE-A-1997-8670",
+      "title": "Real Decreto 487/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas a la manipulación manual de cargas que entrañe riesgos, en particular dorso lumbares, para los trabajadores.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Prevención de riesgos laborales"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": null,
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-8670",
+      "files": [
+        {
+          "pathInDownload": "03 - Prevención de riesgos laborales/BOE-A-1997-8670-consolidado.pdf",
+          "pages": 5,
+          "sha256": "80014d378ee7daa3a9a29234cd42830d6b652e96979ab433c5af0966f53995ee"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-1998-12816",
+      "reference": "BOE-A-1998-12816",
+      "title": "Real Decreto 928/1998, de 14 de mayo, por el que se aprueba el Reglamento general sobre procedimientos para la imposición de sanciones por infracciones de orden social y para los expedientes liquidatorios de cuotas de la Seguridad Social.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Legislación laboral general básica"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2023-12-06",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-12816",
+      "files": [
+        {
+          "pathInDownload": "02 - Legislación laboral general básica/BOE-A-1998-12816-consolidado.pdf",
+          "pages": 34,
+          "sha256": "515acbe7f98ac4e42fbd9e7888aa32bafc203a5fcc94851a66bcd68838a50f4e"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2000-15060",
+      "reference": "BOE-A-2000-15060",
+      "title": "Real Decreto Legislativo 5/2000, de 4 de agosto, por el que se aprueba el texto refundido de la Ley sobre Infracciones y Sanciones en el Orden Social.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Legislación laboral general básica"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2024-05-22",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-15060",
+      "files": [
+        {
+          "pathInDownload": "02 - Legislación laboral general básica/BOE-A-2000-15060-consolidado.pdf",
+          "pages": 49,
+          "sha256": "66221e7baca37cc0f4bc446177635dce2a4cd5127f74f5d5e379846367b9f3cb"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2000-544",
+      "reference": "BOE-A-2000-544",
+      "title": "Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Personas trabajadoras extranjeras"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2025-03-19",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544",
+      "files": [
+        {
+          "pathInDownload": "06 - Personas trabajadoras extranjeras/BOE-A-2000-544-consolidado.pdf",
+          "pages": 54,
+          "sha256": "389a635c4c55c7755628747d4f8c01ef540d0ee36c78937d35b8ed3a7eadef5a"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2004-1848",
+      "reference": "BOE-A-2004-1848",
+      "title": "Real Decreto 171/2004, de 30 de enero, por el que se desarrolla el artículo 24 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, en materia de coordinación de actividades empresariales.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Prevención de riesgos laborales"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": null,
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-1848",
+      "files": [
+        {
+          "pathInDownload": "03 - Prevención de riesgos laborales/BOE-A-2004-1848-consolidado.pdf",
+          "pages": 12,
+          "sha256": "758eb67244c09024ae2db6bc14d80556602f88bb9ed603a7643d13421e93d1df"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2006-22169",
+      "reference": "BOE-A-2006-22169",
+      "title": "Real Decreto 1299/2006, de 10 de noviembre, por el que se aprueba el cuadro de enfermedades profesionales en el sistema de la Seguridad Social y se establecen criterios para su notificación y registro.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Incapacidad temporal, mutuas e INSS",
+        "Prevención de riesgos laborales"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2018-05-05",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-22169",
+      "files": [
+        {
+          "pathInDownload": "03 - Prevención de riesgos laborales/BOE-A-2006-22169-consolidado.pdf",
+          "pages": 34,
+          "sha256": "66f26d59dee2b91f0f42a416f5241c1980c23c39f31f5669adca2d03a162cc02"
+        },
+        {
+          "pathInDownload": "05 - Incapacidad temporal, mutuas e INSS/BOE-A-2006-22169-consolidado.pdf",
+          "pages": 34,
+          "sha256": "66f26d59dee2b91f0f42a416f5241c1980c23c39f31f5669adca2d03a162cc02"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2007-6115",
+      "reference": "BOE-A-2007-6115",
+      "title": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Igualdad, discriminación, discapacidad y privacidad"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2024-08-02",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115",
+      "files": [
+        {
+          "pathInDownload": "04 - Igualdad, discriminación, discapacidad y privacidad/BOE-A-2007-6115-consolidado.pdf",
+          "pages": 66,
+          "sha256": "aab1e0d9c3c4bf358ffc7e04a5c60d3606256d34e14f3839e896a886dc020465"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2009-15442",
+      "reference": "BOE-A-2009-15442",
+      "title": "Real Decreto 1430/2009, de 11 de septiembre, por el que se desarrolla reglamentariamente la Ley 40/2007, de 4 de diciembre, de medidas en materia de Seguridad Social, en relación con la prestación de incapacidad temporal.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Incapacidad temporal, mutuas e INSS"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2023-01-11",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-15442",
+      "files": [
+        {
+          "pathInDownload": "05 - Incapacidad temporal, mutuas e INSS/BOE-A-2009-15442-consolidado.pdf",
+          "pages": 9,
+          "sha256": "a08d12f7bfdebb201b13a4d0968040788a172b6566a7edff1203ca1cd02b7fee"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2011-15936",
+      "reference": "BOE-A-2011-15936",
+      "title": "Ley 36/2011, de 10 de octubre, reguladora de la jurisdicción social.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Legislación laboral general básica"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2025-04-30",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936",
+      "files": [
+        {
+          "pathInDownload": "02 - Legislación laboral general básica/BOE-A-2011-15936-consolidado.pdf",
+          "pages": 141,
+          "sha256": "44020c02fb27239e936f15a791f396b0dac5d02b8bb109e8bda2eb861e7906e1"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2013-12632",
+      "reference": "BOE-A-2013-12632",
+      "title": "Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Igualdad, discriminación, discapacidad y privacidad"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2023-05-09",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632",
+      "files": [
+        {
+          "pathInDownload": "04 - Igualdad, discriminación, discapacidad y privacidad/BOE-A-2013-12632-consolidado.pdf",
+          "pages": 44,
+          "sha256": "f51b9ada5c412b9741799da14880ab5add2c2ccc4439b75e0e32e0bf185fa80a"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2014-7684",
+      "reference": "BOE-A-2014-7684",
+      "title": "Real Decreto 625/2014, de 18 de julio, por el que se regulan determinados aspectos de la gestión y control de los procesos por incapacidad temporal en los primeros trescientos sesenta y cinco días de su duración.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Incapacidad temporal, mutuas e INSS"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2023-01-05",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-7684",
+      "files": [
+        {
+          "pathInDownload": "05 - Incapacidad temporal, mutuas e INSS/BOE-A-2014-7684-consolidado.pdf",
+          "pages": 19,
+          "sha256": "6d601b966fa2b5be534211258b90e05e53d2d1480f3caa50b2308d9ba4d05454"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2015-11430",
+      "reference": "BOE-A-2015-11430",
+      "title": "Real Decreto Legislativo 2/2015, de 23 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto de los Trabajadores.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Legislación laboral general básica"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2025-12-04",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "files": [
+        {
+          "pathInDownload": "02 - Legislación laboral general básica/BOE-A-2015-11430-consolidado.pdf",
+          "pages": 97,
+          "sha256": "fe831486402775aa5c9a487ba9608c658e178ffddf09491c68b58995ae4bce86"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2015-11724",
+      "reference": "BOE-A-2015-11724",
+      "title": "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Legislación laboral general básica"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2026-07-31",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "files": [
+        {
+          "pathInDownload": "02 - Legislación laboral general básica/BOE-A-2015-11724-consolidado.pdf",
+          "pages": 274,
+          "sha256": "6de79cd40b5172ff533b038430d03586acb64f7fd3231d13fab1c03b54f8adc5"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2015-8168",
+      "reference": "BOE-A-2015-8168",
+      "title": "Ley 23/2015, de 21 de julio, Ordenadora del Sistema de Inspección de Trabajo y Seguridad Social.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Legislación laboral general básica"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2025-01-03",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-8168",
+      "files": [
+        {
+          "pathInDownload": "02 - Legislación laboral general básica/BOE-A-2015-8168-consolidado.pdf",
+          "pages": 35,
+          "sha256": "0baf53e98a9762f690ac90a2b38363474e26943e3f4f8e0bbaf1d5c047e4949a"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2018-16673",
+      "reference": "BOE-A-2018-16673",
+      "title": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Igualdad, discriminación, discapacidad y privacidad"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2025-12-27",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+      "files": [
+        {
+          "pathInDownload": "04 - Igualdad, discriminación, discapacidad y privacidad/BOE-A-2018-16673-consolidado.pdf",
+          "pages": 68,
+          "sha256": "a736af56c1f5527a44d59ad1b26d34da04231e6d4ba4865dd26d2e20ac0ba924"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2020-12214",
+      "reference": "BOE-A-2020-12214",
+      "title": "Real Decreto 901/2020, de 13 de octubre, por el que se regulan los planes de igualdad y su registro y se modifica el Real Decreto 713/2010, de 28 de mayo, sobre registro y depósito de convenios y acuerdos colectivos de trabajo.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Igualdad, discriminación, discapacidad y privacidad"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2023-05-18",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-12214",
+      "files": [
+        {
+          "pathInDownload": "04 - Igualdad, discriminación, discapacidad y privacidad/BOE-A-2020-12214-consolidado.pdf",
+          "pages": 26,
+          "sha256": "944c97f2c75ade031fd3605a7887d166e4c6a002325e581fb08dbf6bd204dc57"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2020-12215",
+      "reference": "BOE-A-2020-12215",
+      "title": "Real Decreto 902/2020, de 13 de octubre, de igualdad retributiva entre mujeres y hombres.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Igualdad, discriminación, discapacidad y privacidad"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": null,
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-12215",
+      "files": [
+        {
+          "pathInDownload": "04 - Igualdad, discriminación, discapacidad y privacidad/BOE-A-2020-12215-consolidado.pdf",
+          "pages": 12,
+          "sha256": "6cbd61358c912c61379d4ac72cedc095f3136ac9c3bf5c02fc3db5cdbb48710e"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2021-9719",
+      "reference": "BOE-A-2021-9719",
+      "title": "Instrumento de Ratificación de la Carta Social Europea (revisada), hecha en Estrasburgo el 3 de mayo de 1996.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Igualdad, discriminación, discapacidad y privacidad"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": null,
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-9719",
+      "files": [
+        {
+          "pathInDownload": "04 - Igualdad, discriminación, discapacidad y privacidad/BOE-A-2021-9719-consolidado.pdf",
+          "pages": 22,
+          "sha256": "a4a89c963f099f9b73cc3a9662e8daebf7a7800d6f5119d66ed418fc30558033"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2022-11589",
+      "reference": "BOE-A-2022-11589",
+      "title": "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Igualdad, discriminación, discapacidad y privacidad"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": null,
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-11589",
+      "files": [
+        {
+          "pathInDownload": "04 - Igualdad, discriminación, discapacidad y privacidad/BOE-A-2022-11589-consolidado.pdf",
+          "pages": 39,
+          "sha256": "bd99dbb3235b841adb7b4ff303e9c2f51395e8d6e1fdd81112659150052b5974"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2023-10527",
+      "reference": "BOE-A-2023-10527",
+      "title": "Resolución de 19 de abril de 2023, de la Dirección General de Trabajo, por la que se corrigen errores en la de 20 de enero de 2023, por la que se registra y publica el VI Acuerdo Laboral para el sector de la Hostelería -ALEH VI-.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Documentacion sectorial imprescindible"
+      ],
+      "consolidated": false,
+      "consolidatedThrough": null,
+      "officialUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-10527",
+      "files": [
+        {
+          "pathInDownload": "01 - Documentacion sectorial imprescindible/BOE-A-2023-10527.pdf",
+          "pages": 1,
+          "sha256": "7cfd8f9b7a49d06bcab13459680f5b33a8f48bd3b65453e2790c8db24e793368"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2023-11187",
+      "reference": "BOE-A-2023-11187",
+      "title": "Real Decreto-ley 4/2023, de 11 de mayo, por el que se adoptan medidas urgentes en materia agraria y de aguas en respuesta a la sequía y al agravamiento de las condiciones del sector primario derivado del conflicto bélico en Ucrania y de las condiciones climatológicas, así como de promoción del uso del transporte público colectivo terrestre por parte de los jóvenes y prevención de riesgos laborales en episodios de elevadas temperaturas.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Prevención de riesgos laborales"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2023-06-29",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-11187",
+      "files": [
+        {
+          "pathInDownload": "03 - Prevención de riesgos laborales/BOE-A-2023-11187-consolidado.pdf",
+          "pages": 62,
+          "sha256": "043b1c954940ad6b0e603761160f32339c2693b92d684e189d915fec54906d3a"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2023-5366",
+      "reference": "BOE-A-2023-5366",
+      "title": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Igualdad, discriminación, discapacidad y privacidad"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": null,
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5366",
+      "files": [
+        {
+          "pathInDownload": "04 - Igualdad, discriminación, discapacidad y privacidad/BOE-A-2023-5366-consolidado.pdf",
+          "pages": 61,
+          "sha256": "4c5926d1a730cee1f6505a276d36ab3901650edfa7597f3388db8fa2fda59960"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2023-6344",
+      "reference": "BOE-A-2023-6344",
+      "title": "Resolución de 20 de enero de 2023, de la Dirección General de Trabajo, por la que se registra y publica el VI Acuerdo Laboral para el sector de la Hostelería -ALEH VI-.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Documentacion sectorial imprescindible"
+      ],
+      "consolidated": false,
+      "consolidatedThrough": null,
+      "officialUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-6344",
+      "files": [
+        {
+          "pathInDownload": "01 - Documentacion sectorial imprescindible/BOE-A-2023-6344.pdf",
+          "pages": 66,
+          "sha256": "464339309998cd723675c0c7b76758a9de76ae244379394a2875813b21143b4b"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "boe-a-2024-24099",
+      "reference": "BOE-A-2024-24099",
+      "title": "Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social.",
+      "publisher": "Boletín Oficial del Estado",
+      "categories": [
+        "Personas trabajadoras extranjeras"
+      ],
+      "consolidated": true,
+      "consolidatedThrough": "2026-04-15",
+      "officialUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099",
+      "files": [
+        {
+          "pathInDownload": "06 - Personas trabajadoras extranjeras/BOE-A-2024-24099-consolidado.pdf",
+          "pages": 185,
+          "sha256": "baeaa9f8ea436ae401d183c1e57988a34c2db4ad971acb4554e5b2da8ee2d168"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "bop-sct-2023-020-convenio-hosteleria-2022-2026",
+      "title": "Convenio Colectivo del Sector de Hostelería de Santa Cruz de Tenerife 2022-2026",
+      "publisher": "Boletín Oficial de la Provincia de Santa Cruz de Tenerife",
+      "publication": "BOP núm. 20, de 15 de febrero de 2023",
+      "categories": [
+        "Convenio anterior para hechos anteriores a julio de 2025"
+      ],
+      "officialUrl": "https://www.bopsantacruzdetenerife.es/boletines/2023/15-2-23/15-2-23.pdf",
+      "corpusStatus": "planned",
+      "files": [
+        {
+          "pathInDownload": "07 - Convenio anterior para hechos anteriores a julio de 2025/15-2-23.pdf",
+          "pages": 285,
+          "sha256": "393906874afd14c7892e83312e17947dae07bd289ef269189c6e4d676dbeaee3"
+        },
+        {
+          "pathInDownload": "07 - Convenio anterior para hechos anteriores a julio de 2025/15-2-23-recorte.pdf",
+          "pages": 54,
+          "sha256": "037c990eae6c7ed6b99abceef71d1035cf04b5103fa8b67b8313e72bec65400a"
+        }
+      ]
+    },
+    {
+      "id": "bop-sct-2023-025-tablas-hosteleria",
+      "title": "Corrección de errores y tablas salariales del Convenio Colectivo Provincial de Hostelería 2022-2026",
+      "publisher": "Boletín Oficial de la Provincia de Santa Cruz de Tenerife",
+      "publication": "BOP núm. 25, de 27 de febrero de 2023",
+      "categories": [
+        "Convenio anterior para hechos anteriores a julio de 2025"
+      ],
+      "officialUrl": "https://www.bopsantacruzdetenerife.es/boletines/2023/27-2-23/27-2-23.pdf",
+      "files": [
+        {
+          "pathInDownload": "07 - Convenio anterior para hechos anteriores a julio de 2025/27-2-23.pdf",
+          "pages": 213,
+          "sha256": "945011d30dce5eb39140a630eb9002ece703564b25f3310ce8fe396a39481e89"
+        },
+        {
+          "pathInDownload": "07 - Convenio anterior para hechos anteriores a julio de 2025/27-2-23-recorte.pdf",
+          "pages": 34,
+          "sha256": "cf5e41bb0410e206d404b5b6901d6ad420dda90aa87139bafef3938de4fd6513"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "bop-sct-2023-072-comision-paritaria-hosteleria",
+      "title": "Acuerdo de la Comisión Paritaria del Convenio de Hostelería de 10 de marzo de 2023",
+      "publisher": "Boletín Oficial de la Provincia de Santa Cruz de Tenerife",
+      "publication": "BOP núm. 72, de 14 de junio de 2023",
+      "categories": [
+        "Convenio anterior para hechos anteriores a julio de 2025"
+      ],
+      "officialUrl": "https://www.bopsantacruzdetenerife.es/boletines/2023/14-6-23/14-6-23.pdf",
+      "files": [
+        {
+          "pathInDownload": "07 - Convenio anterior para hechos anteriores a julio de 2025/14-6-23.pdf",
+          "pages": 185,
+          "sha256": "e7c320dc707fa129b653f282bfcf58818ef749a70a42dc8acd0a8d612c780632"
+        },
+        {
+          "pathInDownload": "07 - Convenio anterior para hechos anteriores a julio de 2025/14-6-23-recorte.pdf",
+          "pages": 7,
+          "sha256": "88c5265e7a0e6dba47415d9f808fad39299ca87c35c1bd9561de6a200d11860d"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "bop-sct-2024-062-comision-paritaria-hosteleria",
+      "title": "Acuerdo de la Comisión Paritaria del Convenio de Hostelería de 15 de abril de 2024",
+      "publisher": "Boletín Oficial de la Provincia de Santa Cruz de Tenerife",
+      "publication": "BOP núm. 62, de 22 de mayo de 2024",
+      "categories": [
+        "Convenio anterior para hechos anteriores a julio de 2025"
+      ],
+      "officialUrl": "https://www.bopsantacruzdetenerife.es/boletines/2024/22-5-24/22-5-24.pdf",
+      "files": [
+        {
+          "pathInDownload": "07 - Convenio anterior para hechos anteriores a julio de 2025/22-5-24.pdf",
+          "pages": 416,
+          "sha256": "487fde850180166644042fa3b0474c26cd31ccbc15d129f942a096a9a1864d40"
+        },
+        {
+          "pathInDownload": "07 - Convenio anterior para hechos anteriores a julio de 2025/22-5-24-recortado.pdf",
+          "pages": 4,
+          "sha256": "cb8cc0142a95bf37715bea2bccb6c2b1fc3c13ba9a480f09684a54c4c7e63d56"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "bop-sct-2025-028-comision-paritaria-hosteleria",
+      "title": "Acuerdo de la Comisión Paritaria del Convenio de Hostelería de 21 de enero de 2025",
+      "publisher": "Boletín Oficial de la Provincia de Santa Cruz de Tenerife",
+      "publication": "BOP núm. 28, de 5 de marzo de 2025",
+      "categories": [
+        "Convenio anterior para hechos anteriores a julio de 2025"
+      ],
+      "officialUrl": "https://www.bopsantacruzdetenerife.es/boletines/2025/5-3-25/5-3-25.pdf",
+      "files": [
+        {
+          "pathInDownload": "07 - Convenio anterior para hechos anteriores a julio de 2025/5-3-25.pdf",
+          "pages": 193,
+          "sha256": "3900869741651c7460ec2b64c9e49812a1b17844e1bfedb1d13d9b69c4f4c388"
+        },
+        {
+          "pathInDownload": "07 - Convenio anterior para hechos anteriores a julio de 2025/5-3-25-recortado.pdf",
+          "pages": 5,
+          "sha256": "702eedfc3b786cf896281d256e054a36fbbb6298da0b824c03099ff61b093417"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "bop-sct-2025-154-convenio-hosteleria",
+      "title": "Convenio Colectivo del Sector de Hostelería de Santa Cruz de Tenerife 2025-2028",
+      "publisher": "Boletín Oficial de la Provincia de Santa Cruz de Tenerife",
+      "publication": "BOP núm. 154, de 22 de diciembre de 2025",
+      "categories": [
+        "Documentacion sectorial imprescindible"
+      ],
+      "officialUrl": "https://www.bopsantacruzdetenerife.es/boletines/2025/22-12-25/22-12-25.pdf",
+      "corpusStatus": "draft",
+      "files": [
+        {
+          "pathInDownload": "01 - Documentacion sectorial imprescindible/Boletín sc 22.12.25.pdf",
+          "pages": 47,
+          "sha256": "170cefd3dff53a4710949415e130cf57811d0a4bc599ab27470a9cc8e3d3565c"
+        }
+      ]
+    },
+    {
+      "id": "bop-sct-2026-004-tablas-hosteleria",
+      "title": "Corrección de errores y tablas salariales del Convenio Colectivo Provincial de Hostelería 2025-2028",
+      "publisher": "Boletín Oficial de la Provincia de Santa Cruz de Tenerife",
+      "publication": "BOP núm. 4, de 9 de enero de 2026",
+      "categories": [
+        "Documentacion sectorial imprescindible"
+      ],
+      "officialUrl": "https://www.bopsantacruzdetenerife.es/boletines/2026/9-1-26/9-1-26.pdf",
+      "files": [
+        {
+          "pathInDownload": "01 - Documentacion sectorial imprescindible/Boletín sc 9.1.26.pdf",
+          "pages": 18,
+          "sha256": "7f70c3e4048edd5a6d337b634aa1c42fbbaa30d44fbf525c68d33dbcaea9f04b"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "bop-sct-2026-040-comision-paritaria-hosteleria",
+      "title": "Acuerdo de la Comisión Paritaria del Convenio de Hostelería de 12 de febrero de 2026",
+      "publisher": "Boletín Oficial de la Provincia de Santa Cruz de Tenerife",
+      "publication": "BOP núm. 40, de 3 de abril de 2026",
+      "categories": [
+        "Documentacion sectorial imprescindible"
+      ],
+      "officialUrl": "https://www.bopsantacruzdetenerife.es/boletines/2026/3-4-26/3-4-26.pdf",
+      "files": [
+        {
+          "pathInDownload": "01 - Documentacion sectorial imprescindible/Boletín sc 3.4.26.pdf",
+          "pages": 4,
+          "sha256": "d928c0a1cb99698a47642cff711578f2cc9ba5ee02f6315961e2e7887212c471"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "bop-sct-2026-051-comision-paritaria-transporte",
+      "title": "Acuerdo de la Comisión Paritaria del Convenio de Hostelería de 26 de marzo de 2026 sobre el plus de transporte",
+      "publisher": "Boletín Oficial de la Provincia de Santa Cruz de Tenerife",
+      "publication": "BOP núm. 51, de 29 de abril de 2026",
+      "categories": [
+        "Documentacion sectorial imprescindible"
+      ],
+      "officialUrl": "https://www.bopsantacruzdetenerife.es/boletines/2026/29-4-26/29-4-26.pdf",
+      "files": [
+        {
+          "pathInDownload": "01 - Documentacion sectorial imprescindible/Boletín sc 29.4.26.pdf",
+          "pages": 3,
+          "sha256": "4db96a56062549ffcde76429d971451bfb0fd3dc4a7f27277a4fdd7349107c02"
+        }
+      ],
+      "corpusStatus": "planned"
+    },
+    {
+      "id": "bop-sct-2026-087-comision-paritaria-hosteleria",
+      "title": "Acuerdo de la Comisión Paritaria del Convenio de Hostelería de 19 de junio de 2026",
+      "publisher": "Boletín Oficial de la Provincia de Santa Cruz de Tenerife",
+      "publication": "BOP núm. 87, de 22 de julio de 2026",
+      "categories": [
+        "Documentacion sectorial imprescindible"
+      ],
+      "officialUrl": "https://www.bopsantacruzdetenerife.es/boletines/2026/22-7-26/22-7-26.pdf",
+      "files": [
+        {
+          "pathInDownload": "01 - Documentacion sectorial imprescindible/Boletín sc 22.7.26.pdf",
+          "pages": 5,
+          "sha256": "361a0a0c6529e84fbf357b6881603a5b3d7887e15478465042e3560157e76545"
+        }
+      ],
+      "corpusStatus": "planned"
+    }
+  ]
+}
