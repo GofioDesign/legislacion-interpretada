@@ -12,8 +12,9 @@
     "publisher": "Boletín Oficial de la Provincia de Santa Cruz de Tenerife",
     "publication": "Número 154",
     "date": "2025-12-22",
-    "url": "https://www.bopsantacruzdetenerife.es/",
-    "pages": "30034-30080"
+    "url": "https://www.bopsantacruzdetenerife.es/boletines/2025/22-12-25/22-12-25.pdf",
+    "pages": "30034-30080",
+    "fileSha256": "170cefd3dff53a4710949415e130cf57811d0a4bc599ab27470a9cc8e3d3565c"
   },
   "registry": {
     "publisher": "Registro de convenios y acuerdos colectivos de trabajo",
@@ -21,8 +22,36 @@
     "url": "https://expinterweb.mites.gob.es/regcon/pub/consultaCodigoMapas?convenioMapa=38000905011981"
   },
   "review": {
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "status": "partial",
-    "note": "Corpus inicial. El texto completo del BOP debe segmentarse y contrastarse antes de cambiar el estado a verified."
-  }
+    "coverage": "49 artículos y 5 disposiciones finales incorporados; tablas salariales pendientes de estructuración desde la corrección publicada en el BOP núm. 4 de 9 de enero de 2026.",
+    "method": "Extracción del área visible del PDF oficial y segmentación por artículos. Se excluyó texto técnico situado fuera de la página que duplicaba fragmentos al extraer el PDF.",
+    "note": "El corpus permanece en draft hasta completar la comparación íntegra del texto segmentado con las páginas renderizadas del BOP e incorporar anexos, correcciones y acuerdos posteriores."
+  },
+  "relatedPublications": [
+    {
+      "type": "correccion-y-tablas-salariales",
+      "publication": "BOP núm. 4, de 9 de enero de 2026",
+      "url": "https://www.bopsantacruzdetenerife.es/boletines/2026/9-1-26/9-1-26.pdf",
+      "status": "pending-structure"
+    },
+    {
+      "type": "acuerdo-comision-paritaria",
+      "publication": "BOP núm. 40, de 3 de abril de 2026",
+      "url": "https://www.bopsantacruzdetenerife.es/boletines/2026/3-4-26/3-4-26.pdf",
+      "status": "pending-structure"
+    },
+    {
+      "type": "acuerdo-comision-paritaria",
+      "publication": "BOP núm. 51, de 29 de abril de 2026",
+      "url": "https://www.bopsantacruzdetenerife.es/boletines/2026/29-4-26/29-4-26.pdf",
+      "status": "pending-structure"
+    },
+    {
+      "type": "acuerdo-comision-paritaria",
+      "publication": "BOP núm. 87, de 22 de julio de 2026",
+      "url": "https://www.bopsantacruzdetenerife.es/boletines/2026/22-7-26/22-7-26.pdf",
+      "status": "pending-structure"
+    }
+  ]
 }

@@ -7,8 +7,31 @@ const errors=[];
 const ids=new Set();
 
 const registry=await readJson('registry.json');
-if(registry.version!=='0.1.0')errors.push('registry.json: version debe ser 0.1.0');
+const version=(await readFile(join(root,'VERSION'),'utf8')).trim();
+if(registry.version!==version)errors.push(`registry.json: version ${registry.version} no coincide con VERSION ${version}`);
 if(!Array.isArray(registry.corpora))errors.push('registry.json: corpora debe ser un array');
+
+const inventory=await readJson('sources/inventory.json');
+if(inventory.logicalSourceCount!==inventory.sources?.length)errors.push('sources/inventory.json: logicalSourceCount no coincide con sources');
+const sourceIds=new Set();
+const sourceByHash=new Map();
+let sourceFileCount=0;
+for(const source of inventory.sources||[]){
+  if(!source.id)errors.push('sources/inventory.json: fuente sin id');
+  if(sourceIds.has(source.id))errors.push(`sources/inventory.json: id duplicado ${source.id}`);
+  sourceIds.add(source.id);
+  if(!source.title||!source.publisher||!source.officialUrl)errors.push(`${source.id}: metadatos de fuente incompletos`);
+  if(!String(source.officialUrl).startsWith('https://'))errors.push(`${source.id}: officialUrl no usa HTTPS`);
+  if(!Array.isArray(source.files)||!source.files.length)errors.push(`${source.id}: no conserva huellas de los PDF inventariados`);
+  for(const file of source.files||[]){
+    sourceFileCount+=1;
+    if(!/^[a-f0-9]{64}$/.test(file.sha256||''))errors.push(`${source.id}: SHA-256 no válida`);
+    const previous=sourceByHash.get(file.sha256);
+    if(previous&&previous!==source.id)errors.push(`${source.id}: PDF idéntico registrado también como ${previous}`);
+    sourceByHash.set(file.sha256,source.id);
+  }
+}
+if(inventory.sourceFileCount!==sourceFileCount)errors.push('sources/inventory.json: sourceFileCount no coincide con los archivos registrados');
 
 for(const entry of registry.corpora||[]){
   if(!entry.id)errors.push('registry.json: corpus sin id');

@@ -1,6 +1,6 @@
 # Legislación Interpretada
 
-**Versión actual: 0.1.0**
+**Versión actual: 0.2.0-dev**
 
 Repositorio común y reutilizable para publicar normativa con **texto legal**, **explicación en lenguaje claro**, **relaciones entre normas** y **enlaces estables** a artículos, apartados y letras.
 
@@ -9,6 +9,7 @@ Está pensado para ser consumido por webs sindicales, ambientales, turísticas, 
 ## Qué funciona en 0.1
 
 - catálogo común de corpus en `registry.json`;
+- inventario trazable de las 43 fuentes jurídicas iniciales en `sources/inventory.json`;
 - estructura JSON compartida;
 - texto legal, lenguaje claro y notas editoriales separados;
 - relaciones entre artículos y fuentes externas;
@@ -18,7 +19,7 @@ Está pensado para ser consumido por webs sindicales, ambientales, turísticas, 
 - validación automática con `npm run check` y GitHub Actions;
 - contribución mediante issues y Pull Requests.
 
-El corpus del Convenio de Hostelería de Santa Cruz de Tenerife está todavía en `draft`: la infraestructura es funcional, pero el articulado completo debe terminar de segmentarse y contrastarse antes de declararlo verificado.
+El corpus del Convenio de Hostelería de Santa Cruz de Tenerife está todavía en `draft`: ya contiene sus 49 artículos y 5 disposiciones finales, pero debe terminar de contrastarse e incorporar tablas, correcciones y acuerdos posteriores antes de declararlo verificado.
 
 ## Principios
 
@@ -41,6 +42,9 @@ El motor no está limitado al derecho laboral. El catálogo puede contener `labo
 ├─ registry.json
 ├─ schema/
 │  └─ corpus.schema.json
+├─ sources/
+│  ├─ README.md
+│  └─ inventory.json
 ├─ corpora/
 ├─ src/
 │  ├─ legislation.js
